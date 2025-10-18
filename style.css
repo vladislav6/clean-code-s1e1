@@ -13,14 +13,14 @@ body {
 .header img {
   width: 100%;
 }
-.header .header-link-more-info {
+.header .header-link {
   font-family: fantasy, cursive;
 }
 @media (max-width:768px) {
 .header { text-align: center;
 }
 }
-.centered-main-page-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -30,7 +30,7 @@ body {
   display: inline-block;
   flex-grow: 1
 }
-.task-row-wrapper {
+.wrapper {
   display: flex;
 }
 ul {
@@ -122,7 +122,7 @@ button.delete img:hover {
   transform: rotateZ(0);
 }
 /* Completed */
-ul#completed-tasks label {
+ul#complete label {
   text-decoration: line-through
   color: #888;
 }
